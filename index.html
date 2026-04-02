@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="styles.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 </head>
 <body>
    <header class="header">
     <div class="search-c">
-     <label for="search-field"><img src="./img/magnify.svg" alt="Search image"></label>
-            <input type="text" id="search-field" class="search-input">
+        <label for="search-field"><img src="./img/magnify.svg" alt="Search image"></label>
+        <input type="text" id="search-field" class="search-input">
     </div>
     <div class="profile-c">
         <img src="./img/bell-ring-outline.svg" alt="bell img" class="bell-img">
-        <img class="user-profile" src="./img/redatom.jpeg" alt="profile img">
+        <img src="./img/redatom.jpeg" alt="profile img" class="user-profile-img">
+        <h3 class="user-name">Morgan Oakley</h3>
     </div>
     <div class="welcome-c">
         <img src="./img/redatom.jpeg" alt="profile img" class="user-profile-second">
@@ -27,74 +30,69 @@
         <button class="h-button">Upload</button>
         <button class="h-button">Share</button>
     </div>
-   </header> 
-
-
-
+   </header>
 
    <nav class="sidebar">
     <div class="logo">
         <img src="./img/star.svg" alt="logo" class="sidebar-logo">
-        <h3>Dashboard</h3> 
+        <h3>Dashboard</h3>
     </div>
     <div class="main-links">
-         <ul>
-                <li>
-                    <img src="./img/home.svg" alt="Home">
-                    <p>Home</p>
-                </li>
-                <li>
-                    <img src="./img/account.svg" alt="Profile">
-                    <p>Profile</p>
-                </li>
-                <li>
-                    <img src="./img/message.svg" alt="Messages">
-                    <p>Messages</p>
-                </li>
-                <li>
-                    <img src="./img/clock-fast.svg" alt="History">
-                    <p>History</p>
-                </li>
-                <li>
-                    <img src="./img/note-text.svg" alt="Tasks">
-                    <p>Tasks</p>
-                </li>
-                <li>
-                    <img src="./img/account-multiple.svg" alt="Communities">
-                    <p>Communities</p>
-                </li>
-            </ul>
+        <ul>
+            <li>
+                <img src="./img/home.svg" alt="Home">
+                <p>Home</p>
+            </li>
+            <li>
+                <img src="./img/account.svg" alt="Profile">
+                <p>Profile</p>
+            </li>
+            <li>
+                <img src="./img/message.svg" alt="Messages">
+                <p>Messages</p>
+            </li>
+            <li>
+                <img src="./img/clock-fast.svg" alt="History">
+                <p>History</p>
+            </li>
+            <li>
+                <img src="./img/note-text.svg" alt="Tasks">
+                <p>Tasks</p>
+            </li>
+            <li>
+                <img src="./img/account-multiple.svg" alt="Communities">
+                <p>Communities</p>
+            </li>
+        </ul>
     </div>
     <div class="secondary-links">
         <ul>
             <li>
-                <img src="./img/cog.svg">
+                <img src="./img/cog.svg" alt="Settings">
                 <p>Settings</p>
             </li>
             <li>
-                <img src="./img/help-box.svg">
+                <img src="./img/help-box.svg" alt="Support">
                 <p>Support</p>
             </li>
             <li>
-                <img src="./img/shield-check-outline.svg">
+                <img src="./img/shield-check-outline.svg" alt="Privacy">
                 <p>Privacy</p>
             </li>
         </ul>
     </div>
    </nav>
 
-
-
-
    <main class="content">
     <div class="projects">
         <h4>Your Projects</h4>
+
+        <!-- FIX: all 6 cards now have color-block and correct action-block structure -->
         <div class="project">
             <div class="color-block"></div>
             <div class="text-block">
-                <h5 class="project-name">Super cool project</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae nisi tempora sed vel esse reiciendis perspiciatis corrupti maxime
-                ipsa quidem praesentium doloremque alias odit, et repellat quod voluptatem sequi reprehenderit?</p>
+                <h5 class="project-name">Super Cool Project</h5>
+                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
             </div>
             <div class="action-block">
                 <img src="./img/star.svg" alt="star" class="action-img">
@@ -102,12 +100,12 @@
                 <img src="./img/share.svg" alt="share" class="action-img">
             </div>
         </div>
+
         <div class="project">
             <div class="color-block"></div>
             <div class="text-block">
-                <h5 class="project-name">Super cool project</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae nisi tempora sed vel esse reiciendis perspiciatis corrupti maxime
-                ipsa quidem praesentium doloremque alias odit, et repellat quod voluptatem sequi reprehenderit?</p>
+                <h5 class="project-name">Less Cool Project</h5>
+                <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor.</p>
             </div>
             <div class="action-block">
                 <img src="./img/star.svg" alt="star" class="action-img">
@@ -115,12 +113,12 @@
                 <img src="./img/share.svg" alt="share" class="action-img">
             </div>
         </div>
+
         <div class="project">
             <div class="color-block"></div>
             <div class="text-block">
-                <h5 class="project-name">Super cool project</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae nisi tempora sed vel esse reiciendis perspiciatis corrupti maxime
-                ipsa quidem praesentium doloremque alias odit, et repellat quod voluptatem sequi reprehenderit?</p>
+                <h5 class="project-name">Impossible App</h5>
+                <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
             </div>
             <div class="action-block">
                 <img src="./img/star.svg" alt="star" class="action-img">
@@ -128,12 +126,12 @@
                 <img src="./img/share.svg" alt="share" class="action-img">
             </div>
         </div>
+
         <div class="project">
             <div class="color-block"></div>
             <div class="text-block">
-                <h5 class="project-name">Super cool project</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae nisi tempora sed vel esse reiciendis perspiciatis corrupti maxime
-                ipsa quidem praesentium doloremque alias odit, et repellat quod voluptatem sequi reprehenderit?</p>
+                <h5 class="project-name">Easy Peasy App</h5>
+                <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam.</p>
             </div>
             <div class="action-block">
                 <img src="./img/star.svg" alt="star" class="action-img">
@@ -141,12 +139,12 @@
                 <img src="./img/share.svg" alt="share" class="action-img">
             </div>
         </div>
+
         <div class="project">
             <div class="color-block"></div>
             <div class="text-block">
-                <h5 class="project-name">Super cool project</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae nisi tempora sed vel esse reiciendis perspiciatis corrupti maxime
-                ipsa quidem praesentium doloremque alias odit, et repellat quod voluptatem sequi reprehenderit?</p>
+                <h5 class="project-name">Ad Blocker</h5>
+                <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis.</p>
             </div>
             <div class="action-block">
                 <img src="./img/star.svg" alt="star" class="action-img">
@@ -154,12 +152,12 @@
                 <img src="./img/share.svg" alt="share" class="action-img">
             </div>
         </div>
+
         <div class="project">
             <div class="color-block"></div>
             <div class="text-block">
-                <h5 class="project-name">Super cool project</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae nisi tempora sed vel esse reiciendis perspiciatis corrupti maxime
-                ipsa quidem praesentium doloremque alias odit, et repellat quod voluptatem sequi reprehenderit?</p>
+                <h5 class="project-name">Money Maker</h5>
+                <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex.</p>
             </div>
             <div class="action-block">
                 <img src="./img/star.svg" alt="star" class="action-img">
@@ -168,23 +166,26 @@
             </div>
         </div>
     </div>
-    <div class="announ-trend">
+
+    <!-- FIX: class name was "announ-trend" in HTML but "announ-and-trending" in CSS — unified to "announ-and-trending" -->
+    <div class="announ-and-trending">
         <div class="announcements">
             <h4>Announcements</h4>
             <div class="announ-content">
+                <!-- FIX: class was "Announcement" (capital A) in CSS but "announcement" in HTML — unified to "announcement" -->
                 <div class="announcement">
-                    <h6>New update</h6>
-                    <p>New update in the world</p>
+                    <h6>Site Maintenance</h6>
+                    <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
                 </div>
                 <div class="anno-border"></div>
                 <div class="announcement">
-                    <h6>New update</h6>
-                    <p>New update in the world</p>
+                    <h6>Community Share Day</h6>
+                    <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...</p>
                 </div>
                 <div class="anno-border"></div>
                 <div class="announcement">
-                    <h6>New update</h6>
-                    <p>New update in the world</p>
+                    <h6>Updated Privacy Policy</h6>
+                    <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
                 </div>
             </div>
         </div>
@@ -196,34 +197,32 @@
                     <p>
                         <span class="trend-tag">@tegan</span>
                         <span class="trend-text">World Peace Builder</span>
-                    </p> 
+                    </p>
                 </div>
                 <div class="trend">
                     <img src="./img/redatom.jpeg" alt="2nd trend img" class="trend-img">
                     <p>
                         <span class="trend-tag">@morgan</span>
                         <span class="trend-text">Super Cool Project</span>
-                    </p> 
+                    </p>
                 </div>
                 <div class="trend">
                     <img src="./img/redatom.jpeg" alt="3rd trend img" class="trend-img">
                     <p>
                         <span class="trend-tag">@kendall</span>
                         <span class="trend-text">Life Changing App</span>
-                    </p> 
+                    </p>
                 </div>
                 <div class="trend">
                     <img src="./img/redatom.jpeg" alt="4th trend img" class="trend-img">
                     <p>
                         <span class="trend-tag">@alex</span>
                         <span class="trend-text">No Traffic Maker</span>
-                    </p> 
+                    </p>
                 </div>
             </div>
         </div>
     </div>
    </main>
 </body>
-
-
 </html>
